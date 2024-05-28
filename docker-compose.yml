@@ -25,7 +25,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - /home/java15/uploads:/uploads
+      - /home/java3/uploads:/uploads
     depends_on:
       - db
 
